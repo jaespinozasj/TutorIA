@@ -69,25 +69,8 @@
 									: $i18n.t('(latest)')}
 						</a>
 					</div>
-
-					#<button
-					#	class=" underline flex items-center space-x-1 text-xs text-gray-500 dark:text-gray-500"
-					#	on:click={() => {
-					#		showChangelog.set(true);
-					#	}}
-					#>
-					#	<div>{$i18n.t("See what's new")}</div>
-					#</button>
 				</div>
 
-				#<button
-				#	class=" text-xs px-3 py-1.5 bg-gray-100 hover:bg-gray-200 dark:bg-gray-850 dark:hover:bg-gray-800 transition rounded-lg font-medium"
-				#	on:click={() => {
-				#		checkForVersionUpdates();
-				#	}}
-				#>
-				#	{$i18n.t('Check for updates')}
-				#</button>
 			</div>
 		</div>
 
@@ -107,26 +90,7 @@
 		<hr class=" dark:border-gray-850" />
 
 		<div class="flex space-x-1">
-			#<a href="https://discord.gg/5rJgQTnV4s" target="_blank">
-			#	<img
-			#		alt="Discord"
-			#		src="https://img.shields.io/badge/Discord-Open_WebUI-blue?logo=discord&logoColor=white"
-			#	/>
-			#</a>
-
-			#<a href="https://twitter.com/OpenWebUI" target="_blank">
-			#	<img
-			#		alt="X (formerly Twitter) Follow"
-			#		src="https://img.shields.io/twitter/follow/OpenWebUI"
-			#	/>
-			#</a>
-
-			#<a href="https://github.com/open-webui/open-webui" target="_blank">
-			#	<img
-			#		alt="Github Repo"
-			#		src="https://img.shields.io/github/stars/open-webui/open-webui?style=social&label=Star us on Github"
-			#	/>
-			#</a>
+			
 		</div>
 
 		<div class="mt-2 text-xs text-gray-400 dark:text-gray-500">
